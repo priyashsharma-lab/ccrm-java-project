@@ -103,6 +103,7 @@ OOP (Object-Oriented Programming)
 
 Advanced
 
+- Design Patterns (Singleton): AppConfig.java in the config package.
 - Custom Exceptions: DuplicateEnrollmentException.java
 - try-catch: CliManager.java in the enrollStudentInCourse() method.
 - Lambdas & Streams: CourseService.java in the search methods.
