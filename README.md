@@ -7,21 +7,21 @@ The program is built with a focus on good object-oriented design, with the code 
 
 Core Features:
 
-1. Student Management: Add, list, update, or deactivate students and view their profiles.
+- Student Management: Add, list, update, or deactivate students and view their profiles.
 
-2. Instructor Management: Keep a list of instructors who can be assigned to courses.
+- Instructor Management: Keep a list of instructors who can be assigned to courses.
 
-3. Course Management: Create courses, complete with course codes, credits, and departments. You can also search for courses by department, instructor, or semester.
+- Course Management: Create courses, complete with course codes, credits, and departments. You can also search for courses by department, instructor, or semester.
 
-4. Enrollment & Grading: A system for enrolling students into courses that checks rules (like credit limits) and lets you assign grades.
+- Enrollment & Grading: A system for enrolling students into courses that checks rules (like credit limits) and lets you assign grades.
 
-5. Academic Transcripts: You can generate and print a detailed transcript for any student, which includes a calculated GPA.
+- Academic Transcripts: You can generate and print a detailed transcript for any student, which includes a calculated GPA.
 
-6. Data Persistence: The app saves and loads all data (students, instructors, courses) from simple CSV files so nothing is lost between sessions.
+- Data Persistence: The app saves and loads all data (students, instructors, courses) from simple CSV files so nothing is lost between sessions.
 
-7. File Utilities: I included a feature to create a timestamped backup of all data files.
+- File Utilities: I included a feature to create a timestamped backup of all data files.
 
-  
+
 2. How to Run the Project
 
 What You'll Need:
@@ -31,12 +31,12 @@ What You'll Need:
 
 Running from the Command Line:
 
-1. Open a terminal in the project's main folder (the one that contains the src directory).
+- Open a terminal in the project's main folder (the one that contains the src directory).
 
-2. Compile the code. This command will compile all the .java files and put the output .class files into a new bin folder.
+- Compile the code. This command will compile all the .java files and put the output .class files into a new bin folder.
 javac -d bin src/edu/ccrm/cli/*.java src/edu/ccrm/domain/*.java src/edu/ccrm/io/*.java src/edu/ccrm/service/*.java src/edu/ccrm/util/*.java
 
-3. Run the application. This command executes the main class
+- Run the application. This command executes the main class
 java -cp bin edu.ccrm.cli.CliManager
 
 
@@ -144,5 +144,5 @@ MAT2001,Calculus,4,PQR,INTERIM,Active
 CSE1002,Java,3,Ram,WINTER,Active
 
 
-7. Acknowledgements
+6. Acknowledgements
 While working on this project, I used a few online resources to double-check concepts. I found GeeksforGeeks to be particularly helpful for examples related to the Java Stream API and some of the more advanced file I/O operations.
